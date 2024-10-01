@@ -1,5 +1,5 @@
 const express = require("express");
-const connectDb=require('../backend/config/Db');
+const connectDb=require('./config/Db');
 const userRoutes=require('./Routes/userRoutes');
 const accountRouter=require('./Routes/AccountRoutes')
 const cors=require("cors")
